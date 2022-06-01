@@ -1,0 +1,274 @@
+.header{
+   height: 300px;
+  text-align: center;
+background-color: rgba(41, 48, 48, 0.897);
+color: white;
+
+}
+.mainhead{
+  bottom: 25%;
+  
+}
+
+
+.rightNav {
+width: 50;
+text-align: right;
+}
+
+#search {
+padding: 5px;
+font-size: 17px;
+border: 2px solid grey;
+border-radius: 9px;
+}
+
+
+
+.btn {
+padding: 8px 20px;
+margin: 7px 0;
+border: 2px solid white;
+border-radius: 8px;
+background:rgb(255, 9, 9)
+color: white;
+cursor:pointer;
+}
+
+.btn-sm {
+padding: 6px 10px;
+vertical-align: middle;
+}
+input[ type="text"]{
+  text-align: center;
+}
+
+.leftbar{
+  display: flex;
+ 
+  align-items: left;
+  gap: 15px;
+  padding: 5px 2px;
+}
+  
+.container {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+  }
+  
+  
+  
+  
+  
+  .btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+  }
+  .container{
+    max-width: 800px;
+    width: 30%;
+    height: 70%;
+    
+    
+  }
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    background-color: rgb(247, 41, 41);
+    margin: 9px 0;
+    border: 1px solid rgb(12, 10, 10);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+  }
+  
+  .sub2{
+    color: white;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 70%;
+      display:inline-block;
+    }
+  }
+
+
+ 
+  .about-section{
+    background-color: rgba(41, 48, 48, 0.897);
+  color: white;
+  text-align: center;
+  padding: 1.5px -1px;
+  font-size: 20pt;
+
+  }
+
+  .footer {
+    background-color: #383f4e;
+    color: #a7a7a7;
+    font-size: 16px;
+  }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #2a8ded;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+  
+  div.social {
+    display: flex;
+    gap: 30px;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+   position: relative;
+  left: 93%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  }
+  .social i {
+    color: #bac6d9;
+    
+  }
+  
+  .copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+  }
+  .footer-menu{
+   
+      margin-top: 10px;
+      
+      display: flex;
+      align-items: center;
+      gap: 90px;
+      text-align: center;
+  position: relative;
+  left:87%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  }
+  
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+  text-align: center;
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  
+  }
+  
+  .email1{
+  position: relative;
+  left: 153%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  border:3px solid yellow;
+  color: white;
+  padding-left:1px;
+  padding-right: 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  }
+  
+  
+  input[ type="email"]{
+    text-align: center;
+  }
+  
+  .fb{
+    width: 53px;
+    height: 53px;
+  }
+  .fb1{
+    width: 43px;
+    height: 43px;
+  }
+  .fb2{
+    width: 50px;
+    height: 50px;
+  }
+  .copy{
+    color: white;
+    text-align: center;
+  }
+  .column-about{
+    text-align: center;
+  }
+  
+  .sub{
+    color: white;
+  }
+  .button2{
+    background-color: rgb(247, 41, 41);
+    margin: 9px 0;
+    border: 1px solid rgb(12, 10, 10);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+  }
